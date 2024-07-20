@@ -26,7 +26,7 @@ sh test-docker.sh
 
 From the source repo (This will install latest from the `stable` channel):
 ```shell
-sh install.sh
+wget --no-check-certificate -qO install.sh https://raw.githubusercontent.com/jumploop/docker-install/master/install.sh && sh install.sh
 ```
 
 ## Testing:
